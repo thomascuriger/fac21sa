@@ -22,7 +22,7 @@ N := V \ T
 S = Startsymbol
 P = Produktionsregeln
 
-
+```html
 <statement-list> ::= <statement> | <statement> <statement-list>
 
 <statement> ::= <assignment> | <if-statement> | <while-statement> | <function-declaration> | <run-function>
@@ -59,3 +59,4 @@ P = Produktionsregeln
 <operator> ::= {+,-,/,*,=}
 <conditionaloperator> ::= {==,!=,>,<,&&,<=,>=,||}
 <tokens> := {if,else,while,fun}
+```
